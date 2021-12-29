@@ -34,7 +34,8 @@ export default class index extends Component {
             <Layout style={{ height: "100vh" }}>
                 <Header className="header" style={{ display: "flex", justifyContent: "space-between" }}>
                     <div className="logo">
-                        <img style={{ width: "200px" }} src={require = logo} alt="" />
+                        {/* <img style={{ width: "200px" }} src={require = logo} alt="" /> */}
+                        <span style={{fontSize:"26px",color:"#6da372",fontWeight:"bold"}}>电子商城后台管理系统</span>
                     </div>
                     <div style={{ color: "#fff" }}><span>欢迎:【{getLocalStorage("userInfo").account}】</span>
                         <Popconfirm

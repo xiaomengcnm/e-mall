@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import logo from "../../assets/images/logo-250px.png"
+import logo from "../../assets/images/register-250px.png"
 import "../../assets/css/login.less"
 import { Form, Input, Button, Checkbox } from 'antd';
 import { UserOutlined, LockOutlined, MenuUnfoldOutlined } from '@ant-design/icons';
